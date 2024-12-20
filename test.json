@@ -1,0 +1,8 @@
+{
+    "name": "Test",
+    "description": "This is a simple JSON file for testing.",
+    "data": {
+        "type": "example",
+        "content": "Hello, world!"
+    }
+}
