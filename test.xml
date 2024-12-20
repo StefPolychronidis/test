@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<!DOCTYPE data [
-    <!ENTITY test "Internal Test String">
+<!DOCTYPE root [
+    <!ENTITY xxe SYSTEM "file:///c:/windows/system32/drivers/etc/hosts">
 ]>
-<data>&test;</data>
+<root>
+    <data>&xxe;</data>
+</root>
